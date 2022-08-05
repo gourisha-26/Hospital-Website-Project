@@ -1,0 +1,68 @@
+  <style>
+.d
+{
+  background-color: #0087BD;
+    width: 300px;
+    border: 1px white;
+    padding: 25px;
+    margin: 20px;
+    color: grey;
+    font-family: arial;
+    float: left;
+    color: white
+}
+.button {
+    background-color: skyblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+  </style>
+<body>
+<center><img src="avatar.png">
+  
+  <h2><b>APPOINTMENT FORM</b></h2>
+
+</center>
+</body>
+
+
+<body bgcolor="" leftmargin="30" >
+  <form name="f1" method = "post" action = "reg.php"><h2>
+    <table cellpadding="20" cellspacing="20">
+  <tr>
+    <td>NAME:<br><input class="d" type="text" color="white" name="n" required></td>
+
+  <td>PHONE NUMBER:<br><input class="d" type="text" name="t" required></td>
+
+  <td>E-MAIL:<br><input class="d" type="email" name="e"></td>
+</tr>
+<tr>
+ <td>DATE:<br><input class="d" type="date" name="t7" required></td>
+
+  <td>SELECT A FIELD:<br><select class="d" name="c" required >
+  <option value="phc">PRIMARY HEALTH CARE</option>
+    <option value="pc">PEDIATIC CENTER</option>
+    <option value="gc">GYNAECOLOGICAL CENTER</option>
+    <option value="ops">OUTPATIENT SURGERY</option>
+    <option value="cc">CARDIAC CLINIC</option>
+    <option value="otc">OPTHALMOLOGY CLINIC</option>
+  </select></td>
+
+  <td>COMMENT:<textarea class="d"></textarea></td>
+</tr>
+</table>
+<center>
+  <input class="button" type="submit" >
+    <input class="button" type="reset" >
+  </center>
+</h2>
+</form>
+</body>
